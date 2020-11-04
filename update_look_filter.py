@@ -34,4 +34,4 @@ def update_look_filter(id):
 	sdk.update_look(look_id=id, body=models.WriteLookWithQuery(query_id=new_query.id))
 
 
-get_look_filter(210)
+update_look_filter(210)
